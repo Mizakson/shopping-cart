@@ -1,9 +1,9 @@
 function Nav() {
     return (
-        <nav>
+        <nav data-testid="nav-bar">
             <a href="">Home </a>
-            {/* <a href="">Shop </a>
-            <a href="">Cart</a> */}
+            <a href="">Shop </a>
+            <a href="">Cart</a>
         </nav>
     )
 }

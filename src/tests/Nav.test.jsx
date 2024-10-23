@@ -6,16 +6,7 @@ import Nav from "../components/Nav";
 describe("Nav component", () => {
     it("renders", () => {
         render(<Nav />)
-        screen.debug()
-    })
-})
-
-describe("bool tests", () => {
-    it("true is true", () => {
-        expect(true).toBe(true)
-    })
-
-    it("false is false", () => {
-        expect(false).toBe(false)
+        const navBar = screen.getByTestId("nav-bar")
+        expect(navBar).toBeInTheDocument()
     })
 })
