@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding-top: 1.5%;
+    /* position: sticky; */
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    color: inherit;
+    font-size: 1.25em;
+}
