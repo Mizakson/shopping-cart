@@ -11,10 +11,6 @@ function App() {
     setPage(false)
   }
 
-  function goHome() {
-    setPage(true)
-  }
-
   return (
     <>
       <Nav onClick={handleClick}/>
