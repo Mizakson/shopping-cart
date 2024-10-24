@@ -4,6 +4,7 @@ function Home() {
     return (
         <div data-testid='home'>
             <Nav />
+            {/* display Info component here */}
         </div >
 
     )
