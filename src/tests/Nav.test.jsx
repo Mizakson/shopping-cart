@@ -8,5 +8,6 @@ describe("Nav component", () => {
         render(<Nav />)
         const navBar = screen.getByTestId("nav-bar")
         expect(navBar).toBeInTheDocument()
+        expect(navBar).toHaveTextContent("Home Shop Cart")
     })
 })
