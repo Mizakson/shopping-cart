@@ -2,8 +2,10 @@ import Nav from "../Nav/Nav";
 
 function Home() {
     return (
-        <Nav />
-        // Shop Component Here
+        <div data-testid='home'>
+            <Nav />
+        </div >
+
     )
 }
 
