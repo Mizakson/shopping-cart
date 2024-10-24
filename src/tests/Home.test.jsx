@@ -7,8 +7,8 @@ describe("Nav component", () => {
     it("renders", () => {
         render(<Home />)
         const nav = document.querySelector("nav")
-        const navBar = screen.getByTestId("home")
-        expect(navBar).toBeInTheDocument()
-        expect(navBar).toContain(nav)
+        const homepage = screen.getByTestId("home")
+        expect(homepage).toBeInTheDocument()
+        expect(homepage).toContain(nav)
     })
 })
