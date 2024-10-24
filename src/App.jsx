@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import Nav from "./components/Nav/Nav"
+import Home from "./components/Home/Home"
 import "../src/index.css"
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Nav></Nav>
+      <Home />
     </>
   )
 }
