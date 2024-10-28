@@ -2,14 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-nav > a {
-  text-decoration: none;
-  text-transform: none;
-  color: inherit;
-  font-size: 1.1em;
-  text-align: center;
-}
 nav {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }

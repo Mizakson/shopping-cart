@@ -3,6 +3,7 @@ import Navoption from "./navOption";
 
 function Navbar({ itemTotal }) {
 
+
     const [active, setIsActive] = useState(false)
 
     const toggleOption = () => {
@@ -17,7 +18,7 @@ function Navbar({ itemTotal }) {
             <div id="nav-container">
                 <Navoption text="Home" link="/home" toggleOption={toggleOption}/>
                 <Navoption text="Shop" link="/shop" toggleOption={toggleOption}/>
-                <p style={"cursor: pointer;"}>Cart({itemTotal})</p>
+                <li style={{cursor: 'pointer'}}>Cart({itemTotal})</li>
             </div>
         </nav>
     )
