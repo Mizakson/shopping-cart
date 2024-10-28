@@ -1,15 +1,26 @@
-// import { useOutletContext } from "react-router-dom";
+import { useOutletContext } from "react-router-dom";
 import { useState } from "react";
 
 function AddToCartBtn() {
 
-    // const { itemTotal } = useOutletContext()
+    // const { itemTotal, setItemTotal } = useOutletContext()
+
+    const context = useOutletContext()
 
     var [quantity, setQuantity] = useState(1)
 
     const handleChange = (e) => {
+        e.preventDefault()
         setQuantity(e.target.value)
+        console.log(quantity)
         // useState(() => itemTotal + setQuantity(e.target.value))
+    }
+
+    const updateCounter = (e) => {
+        e.preventDefault()
+        context.setItemTotal(() => (
+            Number(context.itemTotal) + Number(quantity)
+        ))
     }
 
     return (
@@ -21,7 +32,7 @@ function AddToCartBtn() {
                 onChange={handleChange} className="quantity-input"
                 />
             </div>
-            <button>Add to cart</button>
+            <button onClick={updateCounter}>Add to cart</button>
         </div>
 
     )

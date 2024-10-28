@@ -10,9 +10,7 @@ function App() {
   return (
     <>
       <Navbar itemTotal={itemTotal}/>
-      <Outlet>
-        context={{itemTotal}}
-      </Outlet>
+      <Outlet context={{itemTotal, setItemTotal}}/>
     </>
   )
 }
