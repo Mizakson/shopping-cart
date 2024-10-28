@@ -6,3 +6,41 @@ nav {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: inherit;
+}
+
+#nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25%;
+}
+
+#visit-shop > p {
+  font-style: italic;
+}
+
+#home-filler-text > p {
+  max-width: 40%;
+  text-align: left;
+  color: gray;
+}
+
+#home-filler-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container {
+  padding-top: 1.5%;
+}
