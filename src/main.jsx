@@ -6,6 +6,7 @@ import "./css/normalize.css"
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './components/Home.jsx'
 import ErrorPage from './components/Errorpage.jsx'
+import Shop from './components/Shop.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/home", 
         element: <Home />,
+      },
+      {
+        path: "/shop",
+        element: <Shop />
       }
     ],
     errorElement: <ErrorPage />

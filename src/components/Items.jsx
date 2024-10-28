@@ -8,7 +8,7 @@ function Items() {
 
     useEffect(() => {
         const getItems = async () => {
-            const res = await fetch("https://fakestoreapi.com/products?limit='6'")
+            const res = await fetch("https://fakestoreapi.com/products?limit=6")
             const resJSON = await res.json()
             setItems(resJSON)
         }
@@ -19,7 +19,7 @@ function Items() {
 
     items ? (list = items.map((item) => (
         <div className="card" key={item.id}>
-            <RenderItem key={item.id}
+            <RenderItem
              id={item.id} title={item.title}
              image={item.image} price={item.price}
             />
@@ -29,7 +29,7 @@ function Items() {
 
 
     return (
-        <div className="itemDisplay"></div>
+        <div className="itemDisplay">{list}</div>
     )
 }
 

@@ -1,4 +1,4 @@
-function RenderItem({ id, title, image, price, key }) {
+function RenderItem({ id, title, image, price }) {
     return (
         <div className="top">
             <p>{title}</p>

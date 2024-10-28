@@ -1,14 +1,15 @@
-import { useOutletContext } from "react-router-dom";
+// import { useOutletContext } from "react-router-dom";
 import { useState } from "react";
 
-function AddToCartBtn({ updateCounter }) {
-    
-    const { updateCounter } = useOutletContext()
+function AddToCartBtn() {
+
+    // const { itemTotal } = useOutletContext()
 
     var [quantity, setQuantity] = useState(1)
 
     const handleChange = (e) => {
         setQuantity(e.target.value)
+        useState(() => itemTotal + setQuantity(e.target.value))
     }
 
     return (
@@ -20,7 +21,7 @@ function AddToCartBtn({ updateCounter }) {
                 onChange={handleChange} className="quantity-input"
                 />
             </div>
-            <button onClick={updateCounter}>Add to cart</button>
+            <button>Add to cart</button>
         </div>
 
     )
