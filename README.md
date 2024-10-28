@@ -4,11 +4,11 @@ Odin Project React Course Final Project
 
 In this project I learned about:
 * react-router
-    client-side conditional routing with outlets and links
-    creating routes for an application with createBrowserRouter and RouterProvider
-    useOutletContext to access states/props from parent components
+    1. client-side conditional routing with outlets and links
+    2. creating routes for an application with createBrowserRouter and RouterProvider
+    3. useOutletContext to access states/props from parent components
 
-  minimal styling [live preview](https://mizakson-shopping-cart.netlify.app/)
+minimal styling [live preview](https://mizakson-shopping-cart.netlify.app/)
 
   
 project template credits:
