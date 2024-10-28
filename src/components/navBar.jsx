@@ -1,11 +1,11 @@
 import { useState } from "react";
-// nav link component here
+import Navoption from "./navOption";
 
 function Navbar({ itemTotal }) {
 
     return (
         <nav>
-            
+
         </nav>
     )
 }
