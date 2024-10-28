@@ -18,7 +18,7 @@ function Navbar({ itemTotal }) {
             <div id="nav-container">
                 <Navoption text="Home" link="/home" toggleOption={toggleOption}/>
                 <Navoption text="Shop" link="/shop" toggleOption={toggleOption}/>
-                <li style={{cursor: 'pointer'}}>Cart({itemTotal})</li>
+                <li style={{cursor: 'pointer'}} title="don't click -- not functional">Cart({itemTotal})</li>
             </div>
         </nav>
     )
