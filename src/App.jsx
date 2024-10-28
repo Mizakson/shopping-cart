@@ -7,7 +7,12 @@ function App() {
 
   return (
     <>
-      <h1>Nav here...</h1>
+      <nav>
+        {/* swap to link tags */}
+        <a href="">Home</a>
+        <a href="">Shop</a>
+        <a href="">Cart() Don't Click</a>
+      </nav>
     </>
   )
 }
