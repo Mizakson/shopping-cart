@@ -9,7 +9,7 @@ function AddToCartBtn() {
 
     const handleChange = (e) => {
         setQuantity(e.target.value)
-        useState(() => itemTotal + setQuantity(e.target.value))
+        // useState(() => itemTotal + setQuantity(e.target.value))
     }
 
     return (
