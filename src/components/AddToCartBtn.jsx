@@ -12,7 +12,7 @@ function AddToCartBtn({ updateCounter }) {
     }
 
     return (
-        <div className="card-bottom">
+        <div className="bottom">
             <div className="item-quantity">
                 <input 
                 type="number" min="1"
@@ -25,3 +25,5 @@ function AddToCartBtn({ updateCounter }) {
 
     )
 }
+
+export default AddToCartBtn

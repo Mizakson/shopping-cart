@@ -1,6 +1,6 @@
-function RenderItem({ id, title, image, price }) {
+function RenderItem({ id, title, image, price, key }) {
     return (
-        <div className="card">
+        <div className="top">
             <p>{title}</p>
             <img src={image} alt={title} />
             <p>${price}</p>
