@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Chiron Hei HK", system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 nav {
@@ -11,10 +11,16 @@ li {
   list-style: none;
 }
 
-a {
+.bottom>button> {
+  color: red;
+}
+
+a,
+li {
   text-decoration: none;
   text-transform: none;
   color: inherit;
+  font-weight: 400;
 }
 
 #nav-container {
@@ -24,11 +30,11 @@ a {
   gap: 25%;
 }
 
-#visit-shop > p {
+#visit-shop>p {
   font-style: italic;
 }
 
-#home-filler-text > p {
+#home-filler-text>p {
   max-width: 40%;
   text-align: left;
   color: gray;
@@ -45,25 +51,52 @@ a {
   padding-top: 1.5%;
 }
 
-.card {
+/* .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 300px;
-  width: 400px;
+  /* height: 300px;
+  width: 400px; */
+
+.card {
+  display: grid;
+  grid-template-rows: 4fr 1fr;
+}
+
+.top>p,
+#home>a>p {
+  /* font-style: italic; */
+  font-weight: 300;
 }
 
 img {
-  height: 200px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  padding: 0;
+  position: relative;
 }
 
 .itemDisplay {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr 2fr;
 }
 
 .bottom {
   display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.bottom>button {
+  font-family: inherit;
+}
+
+
+.top {
+  display: grid;
+  /* grid-template-rows: 1fr 2fr 1fr; */
+  align-items: center;
 }
