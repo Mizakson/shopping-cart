@@ -21,6 +21,12 @@ li {
   text-transform: none;
   color: inherit;
   font-weight: 400;
+  transition: transform 0.2s;
+}
+
+a:hover,
+li:hover {
+  transform: scale(1.2);
 }
 
 #nav-container {
@@ -62,6 +68,7 @@ li {
 .card {
   display: grid;
   grid-template-rows: 4fr 1fr;
+  transition: transform 0.2s;
 }
 
 .top>p,
@@ -99,4 +106,8 @@ img {
   display: grid;
   /* grid-template-rows: 1fr 2fr 1fr; */
   align-items: center;
+}
+
+.card:hover {
+  transform: scale(1.2);
 }
