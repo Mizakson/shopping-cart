@@ -125,3 +125,7 @@ button:hover,
 input:hover {
   transform: scale(1.2);
 }
+
+@media (min-width: 600px) and (max-width: 1199px) {}
+
+@media (max-width: 599px) {}
