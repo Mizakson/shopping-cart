@@ -94,6 +94,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 2.5%;
 
 }
 
@@ -109,5 +110,18 @@ img {
 }
 
 .card:hover {
+  transform: scale(1.2);
+}
+
+button,
+input {
+  background-color: beige;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+button:hover,
+input:hover {
   transform: scale(1.2);
 }

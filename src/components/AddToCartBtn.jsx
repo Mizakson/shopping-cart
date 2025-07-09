@@ -36,13 +36,11 @@ function AddToCartBtn() {
 
     return (
         <div className="bottom">
-            <div className="item-quantity">
-                <input 
+            <input
                 type="number" min="1"
                 max="100" value={quantity}
                 onChange={handleChange} className="quantity-input"
-                />
-            </div>
+            />
             <button onClick={updateCounter}>Add to cart</button>
             <button onClick={removeFromCart}>Remove Item(s)</button>
             <button onClick={clearCart}>X</button>
