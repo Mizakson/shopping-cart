@@ -126,6 +126,39 @@ input:hover {
   transform: scale(1.2);
 }
 
+@media (min-width: 600px) and (max-width: 1199px) {
+
+  nav {
+    padding-bottom: 2.5%;
+  }
+
+  /* .card {
+    padding-top: 4em;
+  } */
+
+  .main-title>h1 {
+    font-size: 1.5rem;
+  }
+
+  #nav-container>li>a,
+  #nav-container>li>p {
+    font-size: 1.25rem;
+  }
+
+  #nav-container {
+    gap: 12.5%;
+  }
+
+  .top>p {
+    font-size: 1.25rem;
+  }
+
+  .itemDisplay {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
 @media (max-width: 599px) {
   .main-title>h1 {
     font-size: 1rem;
@@ -138,5 +171,9 @@ input:hover {
 
   #nav-container {
     gap: 12.5%;
+  }
+
+  .itemDisplay {
+    grid-template-columns: 1fr;
   }
 }
