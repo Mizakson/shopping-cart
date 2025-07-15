@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function RenderItem({ id, title, image, price }) {
     return (
         <div className="top">
@@ -6,6 +8,13 @@ function RenderItem({ id, title, image, price }) {
             <p>${price}</p>
         </div>
     )
+}
+
+RenderItem.propTypes = {
+    id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+    title: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
 }
 
 export default RenderItem

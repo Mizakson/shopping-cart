@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Navoption from "./navOption";
+import PropTypes from 'prop-types';
 
 function Navbar({ itemTotal }) {
 
@@ -22,6 +23,10 @@ function Navbar({ itemTotal }) {
             </div>
         </nav>
     )
+}
+
+Navbar.propTypes = {
+    itemTotal: PropTypes.number.isRequired
 }
 
 export default Navbar
