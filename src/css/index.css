@@ -126,6 +126,17 @@ input:hover {
   transform: scale(1.2);
 }
 
-@media (min-width: 600px) and (max-width: 1199px) {}
+@media (max-width: 599px) {
+  .main-title>h1 {
+    font-size: 1rem;
+  }
 
-@media (max-width: 599px) {}
+  #nav-container>li>a,
+  #nav-container>li>p {
+    font-size: .85rem;
+  }
+
+  #nav-container {
+    gap: 12.5%;
+  }
+}
