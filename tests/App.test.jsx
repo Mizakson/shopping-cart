@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 import App from "../src/App";
 
-// Mock the Outlet component from react-router-dom
+// mock the Outlet component from react-router-dom
 vi.mock('react-router-dom', async (importOriginal) => {
 
     const actual = await importOriginal();
@@ -45,7 +45,7 @@ describe('App', () => {
             </BrowserRouter>
         );
 
-        // Assert that there is a <p> tag with "Cart(0)" is in the document
+        // assert that there is a <p> tag with "Cart(0)" is in the document
         expect(screen.getByText(/Cart\(0\)/i)).toBeInTheDocument();
 
     });
