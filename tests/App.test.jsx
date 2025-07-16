@@ -1,11 +1,18 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, vi, beforeEach } from "vitest";
+import { render, screen } from "@testing-library/react";
+import { BrowserRouter, Outlet } from "react-router-dom";
+import App from "../src/App";
+import Navbar from "../src/components/navBar";
 
-describe('something truthy and falsy', () => {
-    it('to be true', () => {
-        expect(true).toBe(true)
-    });
+describe('App', () => {
 
-    it('false to be false', () => {
-        expect(false).toBe(false)
-    });
-});
+    it('should render the App component', () => {
+        render(
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
+        );
+
+    })
+
+})

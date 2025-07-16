@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <Navbar itemTotal={itemTotal}/>
-      <Outlet context={{itemTotal, setItemTotal}}/>
+      <Navbar itemTotal={itemTotal} />
+      <Outlet context={{ itemTotal, setItemTotal }} />
     </>
   )
 }
