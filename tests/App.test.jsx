@@ -1,6 +1,6 @@
-import { describe, it, expect, vi, beforeEach } from "vitest";
-import { render, screen } from "@testing-library/react";
-import { BrowserRouter, Outlet } from "react-router-dom";
+import { describe, it, expect } from "vitest";
+import { render } from "@testing-library/react";
+import { BrowserRouter } from "react-router-dom";
 import App from "../src/App";
 import Navbar from "../src/components/navBar";
 
