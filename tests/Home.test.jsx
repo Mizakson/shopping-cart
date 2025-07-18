@@ -53,4 +53,4 @@ describe('Home', () => {
         // paragraph 3
         expect(screen.getByText(/Dolor curae parturient risus facilisis cubilia augue phasellus mus./i)).toBeInTheDocument();
     });
-})
+});
