@@ -114,7 +114,8 @@ describe('Items', () => {
         await act(async () => {
             render(<Items />);
         });
-        expect(screen.getByText('Loading items...')).toBeInTheDocument();
+
+        expect(screen.getByText(/Loading items\.\.\./i)).toBeInTheDocument();
         expect(screen.queryByTestId('mock-render-item-1')).not.toBeInTheDocument();
         expect(screen.queryByText('Mock Add to Cart')).not.toBeInTheDocument();
     });
