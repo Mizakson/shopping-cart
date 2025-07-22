@@ -1,5 +1,6 @@
 :root {
   font-family: "Chiron Hei HK", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  min-width: 300px;
 }
 
 nav {
@@ -56,6 +57,13 @@ li:hover {
 .home-container {
   padding-top: 1.5%;
 }
+
+#loading {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 25%;
+}
+
 
 /* .card {
   display: flex;

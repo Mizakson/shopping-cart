@@ -29,7 +29,9 @@ function Items() {
     }, [])
 
     if (loading) {
-        return <div className="itemDisplay">Loading items...</div>
+        return <div className="loading-display">
+            <p id="loading">Loading Items...</p>
+        </div>
     }
 
     if (error) {
