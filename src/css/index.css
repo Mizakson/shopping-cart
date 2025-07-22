@@ -64,6 +64,11 @@ li:hover {
   padding: 25%;
 }
 
+.loadingDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* .card {
   display: flex;

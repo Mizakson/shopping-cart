@@ -29,7 +29,7 @@ function Items() {
     }, [])
 
     if (loading) {
-        return <div className="itemDisplay">
+        return <div className="loadingDisplay">
             <p id="loading">Loading Items...</p>
         </div>
     }
