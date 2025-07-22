@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import Shop from "../src/components/Shop";
 import Items from "../src/components/Items";
 
-// Mock the Items component
+// mock the Items component
 vi.mock('../src/components/Items', () => ({
     default: vi.fn(() => (
         <div data-testid="mock-items-component">
