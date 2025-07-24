@@ -57,9 +57,7 @@ The application will typically open in your browser at `http://localhost:5173` (
 ``` bash
 
 npm test
-
 # or
-
 yarn test
 
 ```
