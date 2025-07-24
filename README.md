@@ -1,11 +1,35 @@
 # shopping-cart
 
-Odin Project React Course Final Project
+## Odin Project React Course Final Project
 
-In this project I learned about:
-* react-router
-    1. client-side conditional routing with outlets and links
-    2. creating routes for an application with createBrowserRouter and RouterProvider
-    3. useOutletContext to access states/props from parent components
+## Table of Contents
+* Project Overview
+* Live Demo
+* Features
+* Tech Stack
+* Setup and Installation
+* Testing
+* What I Learned
+* Future Enhancements
+* License
 
-[Live preview](https://mizakson-shopping-cart.netlify.app/)
+## Project Overview
+
+## Live Demo
+[demo](https://mizakson-shopping-cart.netlify.app/)
+
+## Features
+
+## Tech Stack
+
+## Setup and Installation
+
+## Testing
+
+## What I Learned
+
+## Future Enhancements
+
+## License
+
+
