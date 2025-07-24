@@ -26,6 +26,17 @@
 
 ## Testing
 
+
+``` bash
+
+npm test
+
+# or
+
+yarn test
+
+```
+
 ## What I Learned
 During the development of this project, I gained practical experience and deepened my understanding of several core React and web development concepts, including:
 
