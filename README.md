@@ -16,7 +16,7 @@
 ## Project Overview
 
 ## [Live Demo](https://mizakson-shopping-cart.netlify.app/)
-![alt text](./src/images/shopping-cart-shop-page.png "Live demo preview")
+![alt text](./src/images/shopping-cart-shop-page.png "Shop page image preview")
 
 ## Features
 * __Multi-Page Navigation__: Provides a seamless multi-page application experience with intuitive navigation between the Home and Shop pages using a persistent navigation bar.
