@@ -20,9 +20,9 @@ This project is a multi-page e-commerce application built with React, serving as
 ![alt text](./src/images/shopping-cart-shop-page.png "Shop page image preview")
 
 ## Features
-* __Multi-Page Navigation__: Provides a seamless multi-page application experience with intuitive navigation between the Home and Shop pages using a persistent navigation bar.
+* __Multi-Page Navigation__: Multi-page application navigation between the Home and Shop pages using a persistent navigation bar.
 
-* __Dynamic Cart Display__: The navigation bar prominently displays the current number of items in the shopping cart, updating automatically as items are added.
+* __Dynamic Cart Display__: The navigation bar displays the current number of items in the shopping cart, updating automatically as items are added.
 
 * __Product Catalog__: Fetches a diverse range of products from the FakeStore API to populate the shop page.
 
@@ -38,16 +38,16 @@ This project is a multi-page e-commerce application built with React, serving as
 
 * __Robust Prop Validation__: Utilizes PropTypes to ensure all components receive valid and expected data, enhancing application stability and developer experience.
 
-* __Responsive Design__: Styled to provide a visually appealing and user-friendly experience across various device sizes, with a focus on minimal yet effective styling.
+* __Responsive Design__: Styled to provide a visually appealing and user-friendly experience across various device sizes.
 
 ## Tech Stack
 * __React__: A JavaScript library for building user interfaces.
 
 * __React Router__ DOM: For declarative routing within the application.
 
-* __Vitest__: A blazing fast unit test framework powered by Vite.
+* __Vitest__: A unit test framework powered by Vite.
 
-* __React Testing Library__: For effective and user-centric component testing.
+* __React Testing Library__: For effective testing of React components.
 
 * __Prop-Types__: For runtime type checking for React props.
 
@@ -86,7 +86,7 @@ yarn dev
 The application will typically open in your browser at `http://localhost:5173` (or a similar port).
 
 ## Testing
-The application includes extensive and thorough unit tests for each component developed using Vitest and React Testing Library. These tests ensure individual component functionality, user interactions, and integration points behave as expected, contributing to a robust and reliable codebase.
+The application includes extensive unit tests for each component developed using Vitest and React Testing Library. These tests ensure individual component functionality, user interactions, and integration points behave as expected.
 
 To run the tests, go to your terminal in the project directory and run the following command: 
 
