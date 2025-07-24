@@ -53,6 +53,10 @@ yarn dev
 The application will typically open in your browser at `http://localhost:5173` (or a similar port).
 
 ## Testing
+The application includes extensive and thorough unit tests for each component developed using Vitest and React Testing Library. These tests ensure individual component functionality, user interactions, and integration points behave as expected, contributing to a robust and reliable codebase.
+
+To run the tests, go to your terminal in the project directory and run the following command: 
+
 
 ``` bash
 
