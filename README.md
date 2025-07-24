@@ -30,9 +30,9 @@
 During the development of this project, I gained practical experience and deepened my understanding of several core React and web development concepts, including:
 
 * React Router:
-    * Implementing client-side conditional routing using Outlet and Link components.
-    * Configuring application routes with createBrowserRouter and RouterProvider.
-    * Utilizing useOutletContext to effectively access states and props from parent components.
+    * Implementing client-side conditional routing using `Outlet` and `Link` components.
+    * Configuring application routes with `createBrowserRouter` and `RouterProvider`.
+    * Utilizing `useOutletContext` to effectively access states and props from parent components.
 
 * Component-Based Architecture: Designing and structuring an application using reusable React components.
 
