@@ -21,6 +21,19 @@
 ## Features
 
 ## Tech Stack
+* __React__: A JavaScript library for building user interfaces.
+
+* __React Router__ DOM: For declarative routing within the application.
+
+* __Vitest__: A blazing fast unit test framework powered by Vite.
+
+* __React Testing Library__: For effective and user-centric component testing.
+
+* __Prop-Types__: For runtime type checking for React props.
+
+* [__FakeStore API__](https://fakestoreapi.com/): Used to fetch product data.
+
+* __CSS__: For styling and layout.
 
 ## Setup and Installation
 
