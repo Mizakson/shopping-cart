@@ -15,10 +15,8 @@
 
 ## Project Overview
 
-## Live Demo
+## [Live Demo](https://mizakson-shopping-cart.netlify.app/)
 ![alt text](./src/images/shopping-cart-shop-page.png "Live demo preview")
-
-[demo link](https://mizakson-shopping-cart.netlify.app/)
 
 ## Features
 
