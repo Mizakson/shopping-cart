@@ -17,7 +17,7 @@
 
 ## Live Demo
 <!-- ![alt text](./src/images/shopping-cart-shop-page.png "Live demo preview") -->
-<img src="./src/images/shopping-cart-shop-page.png" alt="Live demo preview" width="75%" height="75%" />
+<img src="./src/images/shopping-cart-shop-page.png" alt="Live demo preview" width="90%" height="90%" />
 
 [demo link](https://mizakson-shopping-cart.netlify.app/)
 
