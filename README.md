@@ -50,7 +50,7 @@ npm run dev
 yarn dev
 ```
 
-The application will typically open in your browser at http://localhost:5173 (or a similar port).
+The application will typically open in your browser at `http://localhost:5173` (or a similar port).
 
 ## Testing
 
