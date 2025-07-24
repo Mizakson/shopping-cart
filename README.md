@@ -14,6 +14,7 @@
 * [License](#license)
 
 ## Project Overview
+__Shopping Cart__ is a multi-page e-commerce application built with React, serving as the final project for the Odin Project's React Course. It demonstrates fundamental React concepts, including component-based architecture, state management, routing, and API integration. The application features a home page, a dynamic shop page where users can browse products, adjust quantities, add items to a shopping cart, and see the cart's item count updated in real-time within the navigation bar.
 
 ## [Live Demo](https://mizakson-shopping-cart.netlify.app/)
 ![alt text](./src/images/shopping-cart-shop-page.png "Shop page image preview")
