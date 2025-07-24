@@ -54,5 +54,5 @@ During the development of this project, I gained practical experience and deepen
 * Add user authentication and order history.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
