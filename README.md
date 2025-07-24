@@ -19,13 +19,13 @@
 ![alt text](./src/images/shopping-cart-shop-page.png "Live demo preview")
 
 ## Features
-* Multi-Page Navigation: Provides a seamless multi-page application experience with intuitive navigation between the Home and Shop pages using a persistent navigation bar.
+* __Multi-Page Navigation__: Provides a seamless multi-page application experience with intuitive navigation between the Home and Shop pages using a persistent navigation bar.
 
-* Dynamic Cart Display: The navigation bar prominently displays the current number of items in the shopping cart, updating automatically as items are added.
+* __Dynamic Cart Display__: The navigation bar prominently displays the current number of items in the shopping cart, updating automatically as items are added.
 
-* Product Catalog: Fetches a diverse range of products from the FakeStore API to populate the shop page.
+* __Product Catalog__: Fetches a diverse range of products from the FakeStore API to populate the shop page.
 
-* Interactive Product Cards: Each product is presented in an individual card, allowing users to:
+* __Interactive Product Cards__: Each product is presented in an individual card, allowing users to:
 
 * Manually input desired quantities.
 
@@ -33,11 +33,11 @@
 
 * Add selected items to the cart with an "Add To Cart" button.
 
-* Cart Management (Frontend): Updates the cart item count dynamically upon adding products. Includes a non-functional "Checkout" button for future expansion.
+* __Cart Management (front-end)__: Updates the cart item count dynamically upon adding products. Includes a non-functional "Checkout" button for future expansion.
 
-* Robust Prop Validation: Utilizes PropTypes to ensure all components receive valid and expected data, enhancing application stability and developer experience.
+* __Robust Prop Validation__: Utilizes PropTypes to ensure all components receive valid and expected data, enhancing application stability and developer experience.
 
-* Responsive Design: Styled to provide a visually appealing and user-friendly experience across various device sizes, with a focus on minimal yet effective styling.
+* __Responsive Design__: Styled to provide a visually appealing and user-friendly experience across various device sizes, with a focus on minimal yet effective styling.
 
 ## Tech Stack
 * __React__: A JavaScript library for building user interfaces.
