@@ -24,8 +24,35 @@
 
 ## Setup and Installation
 
-## Testing
+To get this project up and running on your local machine, follow these steps:
 
+1. Clone the repository:
+
+``` bash
+git clone https://github.com/Mizakson/shopping-cart
+cd shopping-cart
+```
+
+
+2. Install dependencies:
+``` bash 
+npm install
+# or
+yarn install
+```
+
+
+3. Start the development server:
+
+```bash 
+npm run dev
+# or
+yarn dev
+```
+
+The application will typically open in your browser at http://localhost:5173 (or a similar port).
+
+## Testing
 
 ``` bash
 
